@@ -9,21 +9,16 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>UFDSI: Data Science and Informatics</title>
+    <title>Modern Business - Start Bootstrap Template</title>
 
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-
-    <!-- Custom Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
-
-    <!-- Plugin CSS -->
-    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/creative.css" type="text/css">
+    <link href="css/modern-business.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -34,289 +29,269 @@
 
 </head>
 
-<body id="page-top">
+<body>
 
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">HOME</a>
+                <a class="navbar-brand" href="index.html">Start Bootstrap</a>
             </div>
-
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="#about">about</a>
+                        <a href="about.html">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#workshop">workshop</a>
+                        <a href="services.html">Services</a>
                     </li>
-<!--                    TODO: event page, find a place to link each event page, maybe portfolio-->
-<!--
                     <li>
-                        <a class="page-scroll" href="#workshop">symposium</a>
+                        <a href="contact.html">Contact</a>
                     </li>
--->
-                    <li>
-                        <a class="page-scroll" href="#portfolio">portfolio</a>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="portfolio-1-col.html">1 Column Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-2-col.html">2 Column Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-3-col.html">3 Column Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-4-col.html">4 Column Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-item.html">Single Portfolio Item</a>
+                            </li>
+                        </ul>
                     </li>
-<!--
-                    <li>
-                        <a class="page-scroll" href="#portfolio">member</a>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="blog-home-1.html">Blog Home 1</a>
+                            </li>
+                            <li>
+                                <a href="blog-home-2.html">Blog Home 2</a>
+                            </li>
+                            <li>
+                                <a href="blog-post.html">Blog Post</a>
+                            </li>
+                        </ul>
                     </li>
--->
-<!--                    TODO: member page-->
-                    <li>
-                        <a class="page-scroll" href="#contact">join us</a>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Pages <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="full-width.html">Full Width Page</a>
+                            </li>
+                            <li>
+                                <a href="sidebar.html">Sidebar Page</a>
+                            </li>
+                            <li>
+                                <a href="faq.html">FAQ</a>
+                            </li>
+                            <li>
+                                <a href="404.html">404</a>
+                            </li>
+                            <li>
+                                <a href="pricing.html">Pricing Table</a>
+                            </li>
+                        </ul>
                     </li>
-<!--
-                    <li>
-                        <a class="page-scroll" href="#calendar">CALENDAR</a>
-                    </li>
--->
-<!--                    TODO: calendar page-->
-<!--                    TODO: link to survey page? -->
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container-fluid -->
+        <!-- /.container -->
     </nav>
 
-    <header>
-        <div class="header-content">
-            <div class="header-content-inner">
-                <h1>UF Data Science & informatics</h1>
-                <hr>
-                <p>DSI: Data Science and Informatics Student Organization at UF connects students across academic programs by initiating group learning through technical workshops, speaker sessions, discussion groups and other activities.</p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+    <!-- Header Carousel -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide One');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 1</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 2</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 3</h2>
+                </div>
             </div>
         </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
     </header>
 
-    <section class="bg-primary" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">We learn data science!</h2>
-                    <hr class="light">
-                    <p class="text-faded"> DSI is partnered with the UF Informatics Institute to share in their mission of fostering research and educational studies in order to raise the preeminence of the University of Florida.</p>
-                    <a href="https://informatics.institute.ufl.edu/" class="btn btn-default btn-xl">UFII sponsor</a>   
-                
-                    <h2 class="section-heading"><br>Election Result for Spring 2016!</h2>
-                    <hr class="light">
-                    <p class="text-faded"> 
-                        President: Gordon Hirsch Wilson <br>
-V.P. Internal: Kyle Zachary Smyre <br>
-V.P. External: Ya Zhang <br>
-Treasurer: Ryan Sheppard <br>
-                        Please say hello and welcome them to the team. We've got some exciting things planned for this semester, so be sure to keep an eye out!
-                    
-              </div>
-            </div>
-        </div>           
-                 
-    </section>
+    <!-- Page Content -->
+    <div class="container">
 
-    <section id="workshop">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Our workshops</h2>
-                    <hr class="primary">
+        <!-- Marketing Icons Section -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">
+                    Welcome to Modern Business
+                </h1>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw fa-check"></i> Bootstrap v3.2.0</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
+                        <a href="#" class="btn btn-default">Learn More</a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-code wow bounceIn text-primary"></i>
-                        <h3>Coding</h3>
-                        <p class="text-muted">Says something about teaching coding</p>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw fa-gift"></i> Free &amp; Open Source</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
+                        <a href="#" class="btn btn-default">Learn More</a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-lightbulb-o wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                        <h3>Machine Learning</h3>
-                        <p class="text-muted">Say something about machine learning / Data analysis?</p>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw fa-compass"></i> Easy to Use</h4>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-group wow bounceIn text-primary" data-wow-delay=".2s"></i>
-                        <h3>Symposium</h3>
-                        <p class="text-muted">Say someting about the semi-annual symposium</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-money wow bounceIn text-primary" data-wow-delay=".3s"></i>
-                        <h3>Quantitative Trading</h3>
-                        <p class="text-muted">Simulate and analyze the stock market!</p>
+                    <div class="panel-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
+                        <a href="#" class="btn btn-default">Learn More</a>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    
-     <aside class="bg-dark">
-        <div class="container text-center">
-            <div class="call-to-action">
-                <h2>Upcoming workshop: January 21st, 2016</h2>
-                <h3>6:15 pm - 7:15 pm @ LG-101A, John DeWeese Auditorium, McKnight Brain Institute</h3>
-                <a href="https://www.facebook.com/events/1513986665598625/" target="_blank">Check out the Facebook event page</a>
+        <!-- /.row -->
+
+        <!-- Portfolio Section -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">Portfolio Heading</h2>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="portfolio-item.html">
+                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="portfolio-item.html">
+                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="portfolio-item.html">
+                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="portfolio-item.html">
+                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="portfolio-item.html">
+                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="portfolio-item.html">
+                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+                </a>
             </div>
         </div>
-    </aside>
+        <!-- /.row -->
 
-    
-<!--WARNING: The image size of portfolio section is 650 * 350. Otherwise, distortion happens-->
-    <section class="no-padding" id="portfolio">
-        <div class="container-fluid">
-            <div class="row no-gutter">
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/1.Symposium.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    UF DSI symposium
-                                </div>
-                                <div class="project-name">
-                                    November 19, 2015 <br>
-                                    Reitz Grand Ballroom
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/2.UFDSI_Hadoop.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Hadoop workshop
-                                </div>
-                                <div class="project-name">
-                                    November 5, 2015 <br>
-                                    In this workshop, we used Hadoop and PySpark to store and manipulate large datasets on a preconfigured virtual machine (VM).
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/3.NeuralNetwork.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Neural networks workshop
-                                </div>
-                                <div class="project-name">
-                                    October 29, 2015 <br>
-                                    Neural networks are some of the most powerful machine learning algorithms available today, with applications in computer vision, speech recognition, pattern classification, and many more. 
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/4.Quant.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Algorithmic finance workshop
-                                </div>
-                                <div class="project-name">
-                                    October 22, 2015 <br>
-                                    Come out and learn how to turn your data science chops into cold hard cash, with Quantopian and Python! <br>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/5.PythonII.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Python II workshop
-                                </div>
-                                <div class="project-name">
-                                    September 24, 2015 <br>
-                                    The basics of machine learning using the Scikit-learn package. As part of the workshop, we also taught participants how to create and submit an entry to Kaggle.
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/6.pythonI.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Python I workshop
-                                </div>
-                                <div class="project-name">
-                                    September 17, 2015 <br>
-                                    We introduced participants to the basics of python and how this versatile coding language can empower their own research.
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
+        <!-- Features Section -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">Modern Business Features</h2>
+            </div>
+            <div class="col-md-6">
+                <p>The Modern Business template by Start Bootstrap includes:</p>
+                <ul>
+                    <li><strong>Bootstrap v3.2.0</strong>
+                    </li>
+                    <li>jQuery v1.11.0</li>
+                    <li>Font Awesome v4.1.0</li>
+                    <li>Working PHP contact form with validation</li>
+                    <li>Unstyled page elements for easy customization</li>
+                    <li>17 HTML pages</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
+            </div>
+            <div class="col-md-6">
+                <img class="img-responsive" src="http://placehold.it/700x450" alt="">
             </div>
         </div>
-    </section>
+        <!-- /.row -->
 
-    <aside class="bg-dark">
-        <div class="container text-center">
-            <div class="call-to-action">
-                <h2>Past DSI symposium event: November 19th, 2015</h2>
-                <h3>9:30 am - 1:00 pm @ Reitz Union Ballroom</h3>
-                <a href="documents/dsi-2015f-agenda.pdf" target="_blank">Download the symposium agenda</a>
-<!--                <a href="/documents" download="test">Check out Now!</a>-->
-                <!-- the above code is for downloading, specify the path in href, download = fileName, "Check out Now" is shown in browser -->
-            </div>
-        </div>
-    </aside>
+        <hr>
 
-    <section id="contact">
-        <div class="container">
+        <!-- Call to Action Section -->
+        <div class="well">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Join Us!</h2>
-                    <hr class="primary">
-                    
-                    <p>Interested in planning DSI's future activities, helping with our next training, or organizing our future seminars? </p> 
-                    <p>The best way is to join our Facebook group and come to our next meeting when we announce it. Or email us directly.</p>
+                <div class="col-md-8">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
                 </div>
-                <div class="col-lg-4 col-lg-offset-2 text-center">
-                    <a href="https://www.facebook.com/groups/DataSciUF"> <i class="fa fa-facebook-square fa-3x wow bounceIn"></i></a>
-                    <p><a href="https://www.facebook.com/groups/DataSciUF">Join Us</a></p>
-                </div>
- 
-                <div class="col-lg-4 text-center">
-                    <a href="mailto:your-email@your-domain.com"> <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i></a>
-                    <p><a href="mailto:your-email@your-domain.com">dsiufl@gmail.com</a></p>
+                <div class="col-md-4">
+                    <a class="btn btn-lg btn-default btn-block" href="#">Call to Action</a>
                 </div>
             </div>
         </div>
-    </section>
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Your Website 2014</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
@@ -324,13 +299,12 @@ Treasurer: Ryan Sheppard <br>
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/jquery.fittext.js"></script>
-    <script src="js/wow.min.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="js/creative.js"></script>
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
 
 </body>
 
