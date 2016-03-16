@@ -17,3 +17,9 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
+
+# Collections
+collections:
+  members:
+    output: true
+    permalink: /members/:path/

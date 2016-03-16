@@ -22,66 +22,21 @@ page-title: About
             <div class="col-lg-12">
                 <h2 class="page-header">Our Team board</h2>
             </div>
+			{% for member in site.members %}
             <div class="col-md-4 text-center">
                 <div class="thumbnail">
-                    <img class="img-responsive" src="img/header2.jpg" alt="">
+                    <a href="{{ member.url }}"><img class="img-responsive" src="img/members/{{ member.image }}" alt=""></a>
                     
                     <div class="caption">
-                        <h3>Ya Zhang<br>
-                            <small>V.P. External</small>
+                        <h3><a href="{{ member.url }}">{{ member.name }}</a><br>
+                            <small>{{ member.title }}</small>
                         </h3>
-                        <p>blabla</p>
-                        <ul class="list-inline">
-                            <li><a href="https://www.facebook.com/ya.zhang.5473"><i class="fa fa-2x fa-facebook-square"></i></a>
-                            </li>
-                            <li><a href="https://www.linkedin.com/in/yazhang1"><i class="fa fa-2x fa-linkedin-square"></i></a>
-                           
-                            </li>
-                        </ul>
+                        <p>{{ member.major }}</p>
                     </div>
                 </div>
             </div>
-			
-<!--			
-            <div class="col-md-4 text-center">
-                <div class="thumbnail">
-                    <img class="img-responsive" src="img/header2.jpg" alt="">
-                    
-                    <div class="caption">
-                        <h3>Ya Zhang<br>
-                            <small>V.P. External</small>
-                        </h3>
-                        <p>blabla</p>
-                        <ul class="list-inline">
-                            <li><a href="https://www.facebook.com/ya.zhang.5473"><i class="fa fa-2x fa-facebook-square"></i></a>
-                            </li>
-                            <li><a href="https://www.linkedin.com/in/yazhang1"><i class="fa fa-2x fa-linkedin-square"></i></a>
-                           
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 text-center">
-                <div class="thumbnail">
-                    <img class="img-responsive" src="img/header2.jpg" alt="">
-                    
-                    <div class="caption">
-                        <h3>Ya Zhang<br>
-                            <small>V.P. External</small>
-                        </h3>
-                        <p>blabla</p>
-                        <ul class="list-inline">
-                            <li><a href="https://www.facebook.com/ya.zhang.5473"><i class="fa fa-2x fa-facebook-square"></i></a>
-                            </li>
-                            <li><a href="https://www.linkedin.com/in/yazhang1"><i class="fa fa-2x fa-linkedin-square"></i></a>
-                           
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
--->           
+			{% endfor %}
+          
         <!-- /.row -->
 
         <!-- Previous team boards -->
