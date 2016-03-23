@@ -1,8 +1,9 @@
 ---
 layout: page
-name: Ya Zhang
+# The next field should be the person's name
+name: Matthew Collins
 title: VP External
 major: Computer Science '16
 image: ya.jpg
 ---
-Some background on Ya.
+Matt works at UF.
