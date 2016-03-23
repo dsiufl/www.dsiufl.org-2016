@@ -11,7 +11,8 @@ page-title: About
                 <img class="img-responsive" src="img/about_header.jpg" alt="">
             </div>
             <div class="col-md-6">
-                {% markdown about_text.md %}
+                {% capture my_include %}{% include about_text.md %}{% endcapture %}
+				{{ my_include | markdownify }}
             </div>
         </div>
         <!-- /.row -->
