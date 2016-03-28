@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: member
 name: Ya Zhang
 title: VP External
 major: Computer Science '16
