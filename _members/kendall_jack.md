@@ -1,18 +1,18 @@
 ---
 layout: member
-# The next fields should be filled out appropriately. Place strings in double 
+# The next fields should be filled out appropriately. Place strings in double
 # quotes.
-name: "Gordon Wilson"
-major: "Mathematics & Statistics"
+name: "Jack Kendall"
+major: "Chemical Engineering"
 
 # Images should be placed in img/members and at least 500x300 px but not too 
 # big since they'll take a long time to download
-image: "gordon.jpg"
+image: "kendall_jack.jpg"
 
 # List the positions and semesters this person has held
 positions:
   - title: "President"
-    semester: "2016 Spring"
+    semester: "2015 Fall"
 
 ---
-Some things about Gordon.
+Some things about Jack.

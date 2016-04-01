@@ -1,20 +1,20 @@
 ---
 layout: member
-# The next fields should be filled out appropriately. Place strings in double quotes.
+# The next fields should be filled out appropriately. Place strings in double 
+# quotes.
 name: "Ya Zhang"
-major: "Computer Science"
-title: "Vice President External"
-current: "yes"	# yes or no
+major: "Computer and Information Science and Engineering"
 
-# This number is used to sort the positions in order in the listing
-position_order: 5
-
-# Use <year>-FA or <year>-SP for the year so members will group by the semester they
-# were last active.
-semester: "2016 Spring"
-
-# Images should be placed in img/members and at least 500x300 px but not too big
+# Images should be placed in img/members and at least 500x300 px but not too
+# big since they'll take a long time to download
 image: "zhang_ya.jpg"
+
+# List the positions and semesters this person has held
+positions:
+  - title: "Vice President External"
+    semester: "2016 Spring"
+  - title: "Secretary"
+    semester: "2015 Fall"
 
 ---
 Some things about Ya.
