@@ -37,3 +37,8 @@ their existing file.
 
 1. Delete their .md file from the `_mmebers/` directory
 
+
+### Managing Google calendar 
+dsiufl@gmail.com 
+Any events with "Events" tag would be shown on the calendar section.
+
