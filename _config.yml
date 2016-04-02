@@ -31,3 +31,4 @@ collections:
   members:
     output: true
     permalink: /members/:path/
+  gallery:
