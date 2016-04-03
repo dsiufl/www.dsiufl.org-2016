@@ -26,30 +26,23 @@ layout: default
         
   <div class="row">
         <div class="col-md-12">
-            {% for post in site.posts %}
+            {% assign workshops = site.workshops | sort: 'sort' %}
+            {% for workshop in workshops %}
             <li>
                 <h2>
-                    <a href="{{ post.url }}">{{ post.title }}</a>
+                    <a href="{{site.baseurl}}/{{ workshop.url }}">{{ workshop.title }}</a>
                 </h2>
 
-                <p class="lead">
-                    by {{ post.instructor }}</a>
-                </p>
-
-                <p><i class="fa fa-clock-o"></i> Posted on {{ post.date | date: "%b %-d, %Y" }}</p>
-
-                {% if post.image %}
-                    <a href="{{ post.url }}">
-                        <img class="img-responsive img-hover" src="img/posts/{{ post.image}}" alt="">
+                {% if workshop.image %}
+                    <a href="{{site.baseurl}}/{{ workshop.url }}">
+                        <img class="img-responsive img-hover" src="{{ site.baseurl }}/img/workshops/{{ workshop.image}}" alt="">
                     </a>
                 <hr>
                 {% endif %}
 
-                <p>{{ post.introduction }}</p>
+                <p>{{ workshop.introduction }}</p>
                 
-                
-                <a class="btn btn-primary" href="{{ post.url }}">Read More <i class="fa fa-angle-right"></i></a>
-
+                <a class="btn btn-primary" href="{{site.baseurl}}/{{ workshop.url }}">Read More <i class="fa fa-angle-right"></i></a>
                 <hr>
             </li>
             {% endfor %}

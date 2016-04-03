@@ -32,3 +32,7 @@ collections:
     output: true
     permalink: /members/:path/
   gallery:
+  workshops:
+    output: true
+    permalink: /workshops/:path/
+

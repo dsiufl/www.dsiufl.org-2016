@@ -37,6 +37,13 @@ their existing file.
 
 1. Delete their .md file from the `_mmebers/` directory
 
+## Workshops
+
+### Adding a new workshop
+
+Add a Markdown file to the _workshops directory. You can copy one of the 
+existing files and edit it. Sort order is controlled by the sort variable, not
+the file name.
 
 ### Managing Google calendar 
 dsiufl@gmail.com 
