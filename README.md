@@ -45,6 +45,16 @@ Add a Markdown file to the _workshops directory. You can copy one of the
 existing files and edit it. Sort order is controlled by the sort variable, not
 the file name.
 
+## Gallery
+
+Images should be placed in `img/gallery` and 650x350 px. For each image, a
+Markdown file should be created in `_gallery/` with information about the
+image. Copy and update one of the existing files. Keep the images and Markdown
+files named the same to make it easier to match them up when maintaining the
+site.
+
+Images are sorted by the eventDate parameter with the newest first.
+
 ### Managing Google calendar 
 dsiufl@gmail.com 
 Any events with "Events" tag would be shown on the calendar section.
