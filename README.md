@@ -47,7 +47,7 @@ the file name.
 
 ## Gallery
 
-Images should be placed in `img/gallery` and 650x350 px. For each image, a
+Images should be placed in `img/gallery` and 1900x1263 px. For each image, a
 Markdown file should be created in `_gallery/` with information about the
 image. Copy and update one of the existing files. Keep the images and Markdown
 files named the same to make it easier to match them up when maintaining the
