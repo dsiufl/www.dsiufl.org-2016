@@ -16,6 +16,8 @@ In this workshop we will describe the basics of connecting to Spark running on y
 
 ## Workshop Outline
 
+* Need to add data downloading
+
 ## Software Configuration
 
 For this workshop we will be installing Spark locally on everyone's laptops
@@ -45,7 +47,8 @@ On Windows open a Command Prompt or on OS X open a Terminal and type `java
    You can then click on the file named "spark-1.6.1-bin-hadoop2.6.tgz" which is a link that
    will take you to a page with a link to the download. The file will now probably be in your Downloads directory.
 1. **OR** On Windows, you can download the same file as above but re-compressed to a [.zip from a
-   DSI web server here](). The file will now probably be in your Downloads directory.
+   DSI web server here](http://python.acis.ufl.edu/spark-1.6.1-bin-hadoop2.6.zip).
+   The file will now probably be in your Downloads directory.
 1. Open a Command Prompt in Windows or a Terminal on OS X.
 1. Create a directory for this workshop on your Desktop.
 1. Extract the tarball or zip file to the new directory you just created so it
@@ -108,3 +111,5 @@ by right-clicking on that link and choosing "Save as File".
 1. Run the cells and make sure you get no errors.
 
 <img src="{{ site.baseurl }}/img/workshops/spark_notebook.png" />
+
+#### Now you're ready to start learning Spark!
