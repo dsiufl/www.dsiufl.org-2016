@@ -2,19 +2,18 @@
 layout: member
 # The next fields should be filled out appropriately. Place strings in double 
 # quotes.
-name: "Julia Zuckerman"
-major: "Industrial & Systems Engineering"
-minor: "Computer Science"
+name: "Dr. George Michailidis"
+major: "Department of Statistics"
+minor: ""
 
 # Images should be placed in img/members and at least 500x300 px but not too
 # big since they'll take a long time to download
-image: "zuckerman_julia.jpg"
+image: "dsi_logo_200.png"
 
 # List the positions and semesters this person has held
-positions:
-  - title: "Volunteer Coordinator"
-    semester: "2016 Spring"
+positions: "advisor"
+
 
 
 ---
-Some things about Julia.
+Some things about Dr. Michailidis.

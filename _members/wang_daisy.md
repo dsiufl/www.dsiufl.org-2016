@@ -1,18 +1,18 @@
 ---
 layout: member
-# The next fields should be filled out appropriately. Place strings in double
+# The next fields should be filled out appropriately. Place strings in double 
 # quotes.
-name: "Will Burris"
+name: "Dr. Daisy Wang"
 major: "Computer and Information Science and Engineering"
+minor: ""
 
 # Images should be placed in img/members and at least 500x300 px but not too
 # big since they'll take a long time to download
-image: "burris_will.jpg"
+image: "dsi_logo_200.png"
 
 # List the positions and semesters this person has held
-positions:
-  - title: "Kaggle Competition Coordinator"
-    semester: "2016 Spring"
+positions: "advisor"
+
 
 ---
-Will enjoys data science, health and fitness, and outdoor recreation.
+Some things about Dr. Wang.
