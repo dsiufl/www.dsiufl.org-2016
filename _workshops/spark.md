@@ -12,11 +12,11 @@ summary: >
 Open-sourced less than 2 years ago, Spark is on track to overtake Hadoop in popularity and flexibility as a distributed computation engine. According to the [2016 stackoverflow Developer Survey](http://stackoverflow.com/research/developer-survey-2016#technology-top-paying-tech),
 Spark (and Scala which is the programming language most used with Spark) are the top paying software development technologies.
 
-In this workshop we will describe the basics of connecting to Spark running on your computer through an iPython notebook. We will then write some Python to perform text mining with Spark on a small dataset. At the end of the workshop we will demonstrate running the same code distributed across a cluster with a much larger dataset to show how Spark parallelizes and distributes computation.
-
 ## Workshop Outline
 
-* Need to add data downloading
+In this workshop we explain what Spark is and how it works. Then we will describe the basics of running Spark on your computer and programming for it through an iPython notebook. We will write some Python to perform text mining with Spark on a small dataset. At the end of the workshop we will demonstrate running the same code distributed across a cluster with a much larger dataset to show how Spark parallelizes and distributes computation.
+
+The dataset for this workshop will be made available at the workshop.
 
 ## Software Configuration
 
@@ -53,13 +53,17 @@ On Windows open a Command Prompt or on OS X open a Terminal and type `java
 1. Create a directory for this workshop on your Desktop.
 1. Extract the tarball or zip file to the new directory you just created so it
    looks like this when using the Command Prompt or Terminal
+   
    <img src="{{ site.baseurl }}/img/workshops/spark_desktop_dir.png" />
+   
 1. Change to the `spark-1.6.1-bin-hadoop2.6\bin` sub directory.
 1. On Windows run `pyspark.cmd` or on OS X run `./pyspark`
 1. On Windows, if you have a window pop up that says Windows Firewall has 
    blocked Java, click Allow Access.
 1. You should now see something that looks like:
+
    <img src="{{ site.baseurl }}/img/workshops/spark_pyspark.png" />
+   
 1. Press Ctl-D to exit pyspark.
 
    
@@ -112,4 +116,5 @@ by right-clicking on that link and choosing "Save as File".
 
 <img src="{{ site.baseurl }}/img/workshops/spark_notebook.png" />
 
-#### Now you're ready to start learning Spark!
+
+## Now you're ready to start learning Spark!
