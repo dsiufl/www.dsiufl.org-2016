@@ -2,17 +2,24 @@
 layout: member
 # The next fields should be filled out appropriately. Place strings in double
 # quotes.
-name: "Will Burris"
-major: "Computer Science"
+name: "Nicole Moray"
+major: "Industrial & Systems Engineering"
 
 # Images should be placed in img/members and at least 500x300 px but not too
 # big since they'll take a long time to download
-image: "burris_will.jpg"
+image: "moray_nicole.png"
 
 # List the positions and semesters this person has held
 positions:
-  - title: "Kaggle Coordinator"
+  - title: "Social Coordinator"
     semester: "2016 Spring"
 
 ---
-Will enjoys data science, health and fitness, and outdoor recreation.
+Nicole is a fourth year undergraduate student in Industrial & Systems Engineering.
+
+Interests: 
+<li>Eating</li>
+<li>Tennis and snowboarding</li>
+<li>Computer Science/Programming/Math</li>
+<li>Music</li>
+

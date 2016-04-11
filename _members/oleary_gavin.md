@@ -17,4 +17,11 @@ positions:
 
 
 ---
-Some things about Gavin.
+Gavin received his Bachelor's Degree inIndustrial Engineering and Chinese Language with minor in Statistics in 2015.
+
+Loves:
+
+<li>Quantitative Finance</li>
+<li>Global trends and policy</li>
+<li>Rstudio</li>
+<li>Vaporwave</li>

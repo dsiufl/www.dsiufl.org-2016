@@ -7,7 +7,7 @@ major: "Industrial Engineering"
 
 # Images should be placed in img/members and at least 500x300 px but not too 
 # big since they'll take a long time to download
-image: "smyre_kyle.jpg"
+image: "smyre_kyle.png"
 
 # List the positions and semesters this person has held
 positions:
@@ -15,4 +15,10 @@ positions:
     semester: "2016 Spring"
 
 ---
-yakyakyak
+Kyle is a third year undergraduate student in Industrial & Systems Engineering.
+
+Interests:
+<li>Optimization</li>
+<li>Game Theory</li>
+<li>Risk Management</li>
+<li>Econometrics</li>

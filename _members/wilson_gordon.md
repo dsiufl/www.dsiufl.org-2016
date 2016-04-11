@@ -7,7 +7,7 @@ major: "Mathematics & Statistics"
 
 # Images should be placed in img/members and at least 500x300 px but not too 
 # big since they'll take a long time to download
-image: "gordon.jpg"
+image: "wilson_gordon.png"
 
 # List the positions and semesters this person has held
 positions:
@@ -15,4 +15,12 @@ positions:
     semester: "2016 Spring"
 
 ---
-Some things about Gordon.
+Gordon is a third year undergraduate student in Mathematics and Statistics.
+
+Interests:
+<li>Data Visualization</li>
+<li>Political Campaigns and Forecasting</li>
+<li>Urban Planning</li>
+<li>Wearable Technology</li>
+<li>Entrepreneurship</li>
+
