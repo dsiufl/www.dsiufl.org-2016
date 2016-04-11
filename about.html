@@ -29,10 +29,10 @@ title: About
 			{% if position.semester == semester %}
             <div class="col-md-4 text-center">
                 <div class="thumbnail">
-                    <a href="{{site.baseurl}}/{{ member.url }}"><img class="img-responsive" src="{{site.baseurl}}/img/members/{{ member.image }}" alt=""></a>
+                    <a href="{{site.baseurl}}{{ member.url }}"><img class="img-responsive" src="{{site.baseurl}}/img/members/{{ member.image }}" alt=""></a>
                     
                     <div class="caption">
-                        <h3><a href="{{site.baseurl}}/{{ member.url }}">{{ member.name }}</a><br>
+                        <h3><a href="{{site.baseurl}}{{ member.url }}">{{ member.name }}</a><br>
                             <small>{{ position.title }}</small>
                         </h3>
                         <p>{{ member.major }}</p>
@@ -53,10 +53,10 @@ title: About
 		    {% if member.positions == "advisor" %}
             <div class="col-md-4 text-center">
                 <div class="thumbnail">
-                    <a href="{{site.baseurl}}/{{ member.url }}"><img class="img-responsive" src="{{site.baseurl}}/img/members/{{ member.image }}" alt=""></a>
+                    <a href="{{site.baseurl}}{{ member.url }}"><img class="img-responsive" src="{{site.baseurl}}/img/members/{{ member.image }}" alt=""></a>
                     
                     <div class="caption">
-                        <h3><a href="{{site.baseurl}}/{{ member.url }}">{{ member.name }}</a><br>
+                        <h3><a href="{{site.baseurl}}{{ member.url }}">{{ member.name }}</a><br>
                             <small>Advisor</small>
                         </h3>
                         <p>{{ member.major }}</p>
