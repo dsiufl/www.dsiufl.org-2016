@@ -11,6 +11,8 @@ image: "kumar_sunil.png"
 
 # List the positions and semesters this person has held
 positions:
+  - title: "Treasurer"
+    semester: "2016 Fall"
   - title: "Workshop Coordinator"
     semester: "2016 Spring"
 

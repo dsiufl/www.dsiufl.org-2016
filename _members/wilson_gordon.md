@@ -12,6 +12,8 @@ image: "wilson_gordon.png"
 # List the positions and semesters this person has held
 positions:
   - title: "President"
+    semester: "2016 Fall"
+  - title: "President"
     semester: "2016 Spring"
 
 ---

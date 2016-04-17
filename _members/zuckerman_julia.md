@@ -12,6 +12,8 @@ image: "zuckerman_julia.png"
 
 # List the positions and semesters this person has held
 positions:
+  - title: "Vice President External"
+    semester: "2016 Fall"
   - title: "Volunteer Coordinator"
     semester: "2016 Spring"
 

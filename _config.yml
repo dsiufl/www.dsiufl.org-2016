@@ -19,6 +19,7 @@ carousel_interval: 10000
 # Semesters is used on the About page to build a list of the officers for each
 # semester. Keep this current and in reverse chronological order.
 about_semesters:
+  - "2016 Fall"
   - "2016 Spring"
   - "2015 Fall"
   - "2015 Spring"
