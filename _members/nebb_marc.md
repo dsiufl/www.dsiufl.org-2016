@@ -23,4 +23,4 @@ Interests:
 <li>Using data to improve the healthcare industry</li>
 <li>Binge watching television</li>
 <li>Eating my weight in pizza rolls while discussing politics</li>
-<li>skilled bowling player (if there are bumpers)</li>
+<li>skilled bowling player (if there are bumpers)!</li>
