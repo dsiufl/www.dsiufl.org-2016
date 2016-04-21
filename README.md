@@ -54,7 +54,8 @@ To make a line bold, use <b>`theLine`</b> tag.
 To make a line in larger font, use <h2>`theLine`</h2>. Or you can use <h1> for larger
 font.
 To add a link, use [`the notation of such link`]('the link used')
-See `data_science_roadmap.md` for the above example.
+See `data_science_roadmap.md` for the link example.
+To add a list, use <list>`the content`</list>
 
 ## Gallery
 
