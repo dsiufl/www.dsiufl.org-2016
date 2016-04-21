@@ -19,7 +19,7 @@ positions:
 
 
 ---
-Julia is an undergraduate student in Industrial & Systems Engineering with minor in Computer Science.
+Julia is an undergraduate student studying Industrial & Systems Engineering with minor in Computer Science.
 
 Interests: 
 <li>Soccer and wakeboarding!</li>
