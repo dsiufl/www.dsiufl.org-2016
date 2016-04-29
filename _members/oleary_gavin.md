@@ -17,7 +17,10 @@ positions:
 
 
 ---
-Gavin received his Bachelor's Degree inIndustrial Engineering and Chinese Language with minor in Statistics in 2015.
+Gavin O'Leary received Bachelor's degrees in Industrial Engineering and Chinese Language in 2015. 
+
+With DSI he helped organize the 2015 Spring and Fall Symposiums, and presented a workshop on algorithmic trading 
+with [Quantopian](https://www.quantopian.com). 
 
 Loves:
 

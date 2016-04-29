@@ -50,12 +50,17 @@ their existing file.
 Add a Markdown file to the _workshops directory. You can copy one of the 
 existing files and edit it. Sort order is controlled by the sort variable, not
 the file name. 
-To make a line bold, use <b>`theLine`</b> tag. 
-To make a line in larger font, use <h2>`theLine`</h2>. Or you can use <h1> for larger
-font.
-To add a link, use [`the notation of such link`]('the link used')
-See `data_science_roadmap.md` for the link example.
-To add a list, use <list>`the content`</list>
+
+To make a line bold, use ** tag or <b>. 
+To make a line in larger font, use "#" symbol before the line (without ""), "#" refers
+to the largest font size while "####" refers the smallest but still larger than body font.
+To add a link, use [`the notation of such link`] and put ('the link used') right after []
+See `data_science_roadmap.md` for the link example. 
+
+Here is a 
+[cheetsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for emphasis, 
+lists, links and so on.
+
 
 ## Gallery
 
