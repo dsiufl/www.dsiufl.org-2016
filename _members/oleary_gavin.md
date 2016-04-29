@@ -22,6 +22,8 @@ Gavin O'Leary received Bachelor's degrees in Industrial Engineering and Chinese 
 With DSI he helped organize the 2015 Spring and Fall Symposiums, and presented a workshop on algorithmic trading 
 with [Quantopian](https://www.quantopian.com). 
 
+Since graduating UF in December 2015, Gavin has worked on business intelligence projects at Crowley Maritime and is now an Operations Analyst at Goldman Sachs. He currently lives in Hong Kong with his wife, Marissa.
+
 Loves:
 
 <li>Quantitative Finance</li>
