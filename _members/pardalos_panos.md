@@ -3,7 +3,9 @@ layout: member
 # The next fields should be filled out appropriately. Place strings in double 
 # quotes.
 name: "Dr. Panos M. Pardalos"
-major: "Industrial & Systems Engineering"
+major: "Distinguished Professor<br />
+Director, Center for Applied Optimization<br />
+Industrial & Systems Engineering"
 minor: ""
 
 # Images should be placed in img/members and at least 500x300 px but not too
