@@ -3,7 +3,7 @@ layout: member
 # The next fields should be filled out appropriately. Place strings in double 
 # quotes.
 name: "Talia Brown"
-major: "Computer and Information Science and Engineering"
+major: "Computer Science"
 minor: ""
 
 # Images should be placed in img/members and at least 500x300 px but not too
@@ -17,4 +17,10 @@ positions:
 
 
 ---
-Some things about Talia.
+Talia is an undergraduate student in Computer Science and Economics.
+
+Interests: 
+<li>New to data science</li>
+<li>Finance</li>
+<li>Economics</li>
+<li>Fencing team</li>

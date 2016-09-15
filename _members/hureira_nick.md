@@ -17,4 +17,10 @@ positions:
 
 
 ---
-Some things about Nick.
+Nick is the 5th year undergraduate student in Industrial & Systems Engineering.
+
+Interests:
+<li>Artificial Intelligence</li>
+<li>Optimization</li>
+<li>Business Analytics</li>
+<li>Entrepreneurship</li>

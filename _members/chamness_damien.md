@@ -17,4 +17,4 @@ positions:
 
 
 ---
-Some things about Damiem.
+When Damiem returned to UF for his Master's and discovered there was no student group devoted to Data Science, he reached out to fellow students and faculty to help him found DSI. Upon graduation Damiem joined the Technology Leadership Program at Citi, where he's taken on roles built around advancing Data Science tools and practices. 

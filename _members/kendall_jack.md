@@ -15,4 +15,17 @@ positions:
     semester: "2015 Fall"
 
 ---
-Some things about Jack.
+Jack is a 5th year undergraduate student in Chemical Engineering and Physics.
+
+Research Areas: 
+<li>Computational Neuroscience</li>
+<li>Nanomaterials</li>
+<li>Neuromorphic Hardware</li>
+
+<br>
+Interests:
+<li>DATA SCIENCE!</li>
+<li>Quantum Computing</li>
+<li>Information Theory</li>
+<li>Nonequilibrium Thermodynamics</li>
+

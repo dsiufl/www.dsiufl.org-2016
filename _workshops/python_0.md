@@ -6,6 +6,7 @@ image: "python_logo_and_wordmark.png"
 repo: "https://github.com/dsiufl/Python-Workshops"
 summary: "Introduction to Python for those who have little to no experience with Python"
 ---
+
 DSI is excited to announce Python 0, an introductory course designed for those
 who have little to no experience with Python. Those with no programming 
 experience at all will also be comfortable in this workshop.

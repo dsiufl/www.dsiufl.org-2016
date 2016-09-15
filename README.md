@@ -14,7 +14,7 @@ three file names will be used in that order.
 
 ### Duration
 
-The timing duration is stored in the `_config.yml` as the variable 
+The timing duration is stored in the `_config.yaml` as the variable 
 `carousel_interval`.
 
 ## Members on the About page
@@ -22,7 +22,13 @@ The timing duration is stored in the `_config.yml` as the variable
 The members list on the About page is dynamically generated. The member 
 information is kept in the `_members/` folder in Markdown files name in the 
 `<lastname>_<firstname>.md` format. There is also a variable in the 
-`_config.yaml` that controls the semesters that are listed.
+`_config.yml` that controls the semesters that are listed. Place the member's 
+headshot in `img/members` folder in the `<lastname>_<firstname>.jpg` or 
+`<lastname>_<firstname>.png` format, the suggested dimension is 432 x 432 px. 
+Using photo of different dimensions would cause distortion in arrangement. 
+To add a new member, copy an existing `member.md` file, rename it and fill 
+corrseponding areas accordingly. Please pay special attention to `Major` category
+because long name would cause distortion, too.
 
 ### At a new semester
 
@@ -35,7 +41,7 @@ their existing file.
 
 ### Removing people
 
-1. Delete their .md file from the `_mmebers/` directory
+1. Delete their .md file from the `_members/` directory
 
 ## Workshops
 
@@ -43,7 +49,18 @@ their existing file.
 
 Add a Markdown file to the _workshops directory. You can copy one of the 
 existing files and edit it. Sort order is controlled by the sort variable, not
-the file name.
+the file name. 
+
+To make a line bold, use ** tag or <b>. 
+To make a line in larger font, use "#" symbol before the line (without ""), "#" refers
+to the largest font size while "####" refers the smallest but still larger than body font.
+To add a link, use [`the notation of such link`] and put ('the link used') right after []
+See `data_science_roadmap.md` for the link example. 
+
+Here is a 
+[cheetsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for emphasis, 
+lists, links and so on.
+
 
 ## Gallery
 
