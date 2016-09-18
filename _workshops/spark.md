@@ -1,6 +1,6 @@
 ---
 layout: workshop
-sort: 5
+sort_order: 30
 title: "Apache Spark"
 image: "spark-logo.png"
 repo: "https://github.com/dsiufl/Python-Workshops"

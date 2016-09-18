@@ -1,6 +1,6 @@
 ---
 layout: workshop
-sort: 3
+sort_order: 05
 title: "Python 0"
 image: "python_logo_and_wordmark.png"
 repo: "https://github.com/dsiufl/Python-Workshops"

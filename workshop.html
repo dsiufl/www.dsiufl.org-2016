@@ -26,7 +26,7 @@ layout: default
         
   <div class="row">
         <div class="col-md-10">
-            {% assign workshops = site.workshops | sort: 'sort' %}
+            {% assign workshops = site.workshops | sort: 'sort_order' %}
             {% for workshop in workshops %}
             <li>
                 <h2>

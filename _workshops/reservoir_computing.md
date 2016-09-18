@@ -1,6 +1,6 @@
 ---
 layout: workshop
-sort: 3
+sort_order: 20
 title: "Music Generation with Recurrent Neural Networks"
 image: "python_logo_and_wordmark.png"
 repo: "https://github.com/dsiufl/Python-Workshops"
