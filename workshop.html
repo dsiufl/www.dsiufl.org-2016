@@ -23,28 +23,26 @@ layout: default
             </div>
         </div>
         <!-- /.row -->
-        
+
   <div class="row">
         <div class="col-md-10">
             {% assign workshops = site.workshops | sort: 'sort_order' %}
             {% for workshop in workshops %}
-            <li>
-                <h2>
+            <li><div>
+                <p>
+                    {% if workshop.image %}
+                        <a href="{{site.baseurl}}{{ workshop.url }}">
+                            <img class="img-responsive img-hover" src="{{ site.baseurl }}/img/workshops/{{ workshop.image}}" alt="">
+                        </a>
+                    {% endif %}
+                </p>
+                                <h2>
                     <a href="{{site.baseurl}}{{ workshop.url }}">{{ workshop.title }}</a>
                 </h2>
-
-                {% if workshop.image %}
-                    <a href="{{site.baseurl}}{{ workshop.url }}">
-                        <img class="img-responsive img-hover" src="{{ site.baseurl }}/img/workshops/{{ workshop.image}}" alt="">
-                    </a>
-                <hr>
-                {% endif %}
-
                 <p>{{ workshop.summary }}</p>
-                
                 <a class="btn btn-primary" href="{{site.baseurl}}{{ workshop.url }}">Read More <i class="fa fa-angle-right"></i></a>
                 <hr>
-            </li>
+            </div></li>
             {% endfor %}
             </div>
 
