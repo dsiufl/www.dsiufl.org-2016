@@ -14,10 +14,12 @@ image: "collins_matthew.jpeg"
 positions: "advisor"
 
 ---
-Matthew is a system administrator and scientific programmer for UF's Advanced Computing and Information Systems laboratory.He has previously been a system administrator and web applications developer for the Florida Museum of Natural History at UF as well as ISPs and consulting companies. He has 20 years of IT experience focused on open source software development in cooperation with scientists and engineers. He got his Master's degree in Industrial and Systems Engineering (Spring 2016). 
+Matthew is the technical operations manager and scientific programmer for UF's Advanced Computing and Information Systems laboratory. He provides for the care and feeding of the technical resources, both human and machine, of the lab. He has previously been a system administrator and web applications developer for the Florida Museum of Natural History at UF as well as ISPs and consulting companies. He has 20 years of IT experience focused on open source software development in cooperation with scientists and engineers and recently (2016) was awarded a Master's in Industrial and Systems Engineering from UF.
 
-Projects: 
+Projects:
+<ul>
 <li>Software and infrastructure development for iDigBio</li>
 <li>Data Carpentry and Software Carpentry instructor</li>
+<li>Big data analysis and interpretation with Spark</li>
 <li>Cloud, virtualization, and research cluster administrator</li>
-[GitHub](https://github.com/mjcollin/)
+</ul>
