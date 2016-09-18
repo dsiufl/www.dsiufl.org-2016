@@ -12,21 +12,6 @@ p {
 
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="post-meta">
-      {% comment %}
-      It appears that Github and latest Jekyll are on opposite sides of this bug boundry:
-      https://github.com/brikis98/hello-startup-site/commit/a520d8da4002165f8de143a9ddab25f4ee52ffae
-      {% endcomment %}
-        {% if layout.date == nil %}
-          {% assign d = page.date %}
-        {% else %}
-          {% assign d = layout.date %}
-        {% endif %}
-      Last updated: 
-        <time datetime="{{ d | date_to_xmlschema }}" itemprop="datePublished">
-          {{ d | date: "%b %-d, %Y" }}
-        </time>
-    </p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
