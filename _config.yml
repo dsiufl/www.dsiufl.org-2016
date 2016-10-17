@@ -20,6 +20,7 @@ carousel_interval: 10000
 # semester. Keep this current and in reverse chronological order.
 about_semesters:
   - "2016 Fall"
+  - "2016 Fall Junior"
   - "2016 Spring"
   - "2015 Fall"
   - "2015 Spring"
