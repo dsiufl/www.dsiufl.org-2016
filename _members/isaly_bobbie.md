@@ -13,7 +13,7 @@ image: "isaly_bobbie.jpg"
 # List the positions and semesters this person has held
 positions:
   - title: "Online Content Manager"
-    semester: "2016 Fall"
+    semester: "2016 Fall Junior"
 
 
 ---
