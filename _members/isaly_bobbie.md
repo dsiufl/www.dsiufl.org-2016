@@ -17,7 +17,10 @@ positions:
 
 
 ---
-Bobbie is an undergraduate student in Computer Science.
+Bobbie is an undergraduate student in Computer Science with a minor in Business Administration.
 
 Interests: 
 <li>New to data science</li>
+<li>Interested in Information Technology and Embedded Systems</li>
+<li>Excited to learn more about GitHub and managing the website</li>
+<li>Enjoys Power Yoga classes at Southwest Recreation Center</li>
