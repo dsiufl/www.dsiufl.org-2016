@@ -12,7 +12,7 @@ image: "burris_will.jpg"
 # List the positions and semesters this person has held
 positions:
   - title: "Vice President Internal"
-    semester: "2016 Fall"
+    semester: "2016 Fall Senior"
   - title: "Kaggle Coordinator"
     semester: "2016 Spring"
 
