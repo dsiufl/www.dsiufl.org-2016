@@ -17,7 +17,7 @@ positions:
 
 
 ---
-Talia is a graduate student in Information Systems and Operations Management.
+Sudnyana is a graduate student in Information Systems and Operations Management.
 
 Interests: 
 <li>Data Analytics</li>
