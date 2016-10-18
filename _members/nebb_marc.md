@@ -12,7 +12,7 @@ image: "nebb_marc.png"
 # List the positions and semesters this person has held
 positions:
   - title: "Secretary"
-    semester: "2016 Fall"
+    semester: "2016 Fall Senior"
   - title: "Secretary"
     semester: "2016 Spring"
 
