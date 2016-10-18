@@ -17,7 +17,7 @@ positions:
 
 
 ---
-Talia is a first year graduate student in Computer Science.
+Shruti is a first year graduate student in Computer Science.
 
 Interests: 
 <li>Data Analytics</li>
