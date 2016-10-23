@@ -20,6 +20,7 @@ positions:
 Ross is a third year undergraduate student in Mathematics, Statistics, and Computer Science.
 
 Interests: 
-<li>LexisNexis</li>
-<li>Politics and Data</li>
-<li>Making big bucks</li>
+<li>Political Forecasting</li>
+<li>Machine Learning</li>
+<li>Data Visualization</li>
+<li>Listening to and Producing Music</li>
