@@ -3,7 +3,7 @@ layout: member
 # The next fields should be filled out appropriately. Place strings in double 
 # quotes.
 name: "Sudnyana Kadagadkai"
-major: "Information Systems and Operations Management"
+major: "Info Systems & Operations Management"
 minor: ""
 
 # Images should be placed in img/members and at least 500x300 px but not too
