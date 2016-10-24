@@ -2,7 +2,7 @@
 layout: member
 # The next fields should be filled out appropriately. Place strings in double 
 # quotes.
-name: "Prakash Pudhocode"
+name: "Prakash Pudhucode"
 major: "Computer Science"
 minor: ""
 
