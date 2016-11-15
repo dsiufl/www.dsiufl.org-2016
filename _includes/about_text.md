@@ -1,7 +1,7 @@
 ## Who We Are
 * UF DSI is a multi- and inter-disciplinary student organization dedicated to celebrating and promoting Data Science at the University of Florida.
-* DSI is partnered with the UF Informatics Institute to share in their mission of fostering research and educational studies in order to raise the preeminence of the University of Florida.
-<a href="https://informatics.institute.ufl.edu/" class="btn btn-primary btn-xl page-scroll">UFII sponsor</a>  
+* DSI is partnered with the [UF Informatics Institute](https://informatics.institute.ufl.edu/ "UF Informatics Institute")
+ to share in their mission of fostering research and educational studies in order to raise the preeminence of the University of Florida.
 
 ## What We Believe
 * Data Science has the potential to revolutionize the way we understand our world.
