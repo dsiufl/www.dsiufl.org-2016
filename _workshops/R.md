@@ -1,7 +1,7 @@
 ---
 layout: workshop
 sort_order: 06
-title: "R"
+title: "R Workshops"
 image: ""
 repo: "https://github.com/dsiufl/R-Workshops"
 summary: ""
