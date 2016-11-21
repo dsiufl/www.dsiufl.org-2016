@@ -26,12 +26,19 @@ Jupyter notebooks running on your machine.
 
 ### Additional Packages
 
-You will also need some additional Python packages. More details about how to 
-install these in Anaconda are coming.
-    
-1. census
+You will also need some additional Python packages.
+
 1. basemap
+1. census
 1. geocoder
+
+If you have installed Anaconda above you can open a Command Prompt in Windows
+or a Terminal in OS X and type:
+
+```
+conda install basemap 
+pip install census geocoder
+```
 
 ### API Keys
 
