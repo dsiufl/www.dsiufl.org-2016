@@ -22,7 +22,7 @@ This is a fantastic opportunity to network with students and faculty who are pas
 <br><br>
 Breakfast and Lunch will be served. 
 <br><br>
-<b>If you plan to attend, please RSVP through this form: https://goo.gl/forms/p6OJ9ppLLfmumfXK2</b>
+<b>If you plan to attend, please RSVP through this form: <a href="https://goo.gl/forms/p6OJ9ppLLfmumfXK2">https://goo.gl/forms/p6OJ9ppLLfmumfXK2</a></b>
 <br><br>
 <h3>The schedule is below: </h3>
 <br>
