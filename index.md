@@ -30,23 +30,23 @@ Breakfast and Lunch will be served.
 <br>
 <li>10:30 - 10:45	Introduction by DSI Leadership - Gordon Wilson, DSI President</li>
 <br>
-10:45 - 11:00	Dr. George Michailidis, UFII Director
+<li>10:45 - 11:00	Dr. George Michailidis, UFII Director</li>
 <br>
-11:00 - 11:25	Keynote: Jack Kendall - Designing Neuromorphic Hardware for Machine Learning
+<li>11:00 - 11:25	Keynote: Jack Kendall - Designing Neuromorphic Hardware for Machine Learning</li>
 <br>
-11:30 - 11:55	Breakout Session 1 (20 minute presentations, 5 minute Q&A)
+<li>11:30 - 11:55	Breakout Session 1 (20 minute presentations, 5 minute Q&A)</li>
 <br>
-12:00 - 12:25	Breakout Session 2 (20 minute presentations, 5 minute Q&A)
+<li>12:00 - 12:25	Breakout Session 2 (20 minute presentations, 5 minute Q&A)</li>
 <br>
-12:30 - 12:55	Breakout Session 3 (20 minute presentations, 5 minute Q&A)
+<li>12:30 - 12:55	Breakout Session 3 (20 minute presentations, 5 minute Q&A)</li>
 <br>
-1:00 - 2:00	Lunch
+<li>1:00 - 2:00	Lunch</li>
 <br>
-2:00 - 2:45	Workshop Session 1
+<li>2:00 - 2:45	Workshop Session 1</li>
 <br>
-2:50 - 3:40	Workshop Session 2
+<li>2:50 - 3:40	Workshop Session 2</li>
 <br>
-3:40 - 4:00	Closing Remarks and How to get involved
+<li>3:40 - 4:00	Closing Remarks and How to get involved</li>
 
 </center>
 
