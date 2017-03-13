@@ -3,32 +3,32 @@ layout: front
 ---
 <center>
 <h1>{{ site.title }}</h1>
-<br><br>
+<br>
 DSI: Data Science and Informatics Student Organization at UF connects students across academic programs by initiating group learning through technical workshops, speaker sessions, discussion groups and other activities.
 <br><br>
 <h1>DSI Symposium</h1>
+<br>
+<b>DSI is hosting our Spring Symposium on Saturday, March 18th from 9:45am-4pm in the Reitz Union Grand Ball Room.</b>
 <br><br>
-DSI is hosting our Spring Symposium on Saturday, March 18th from 9:45am-4pm in the Reitz Union Grand Ball Room.
-<br>
 Come spend your Saturday at the largest DSI event of the year - our annual Symposium. 
-<br>
+<br><br>
 Begin the day with Einstein's bagels for breakfast, remarks from DSI leadership and the UFII Director, and a keynote by Jack Kendall, the founder of a Deep Learning startup here in Gainesville. 
-<br>
+<br><br>
 The symposium continues with speakers from a wide range of research fields at UF iin three breakout sessions of four speakers each. Learn about computer vision, bioinformatics, political forecasting, business analytics, and more.
-<br>
+<br><br>
 Our symposium will also include two rounds of workshops with several choices in each round- so you can brush up on your Python, learn about data visualization, or deepen your knowledge of machine learning.
-<br>
+<br><br>
 This is a fantastic opportunity to network with students and faculty who are passionate about the impact of data science and the tools they utilize to realize that impact. 
-<br>
+<br><br>
 Breakfast and Lunch will be served. 
-<br>
+<br><br>
 <b>If you plan to attend, please RSVP through this form: https://goo.gl/forms/p6OJ9ppLLfmumfXK2</b>
-<br>
+<br><br>
 <h3>The schedule is below: </h3>
 <br>
-9:45 - 10:30	Registration & Breakfast Opens in Grand Ballroom
+<li>9:45 - 10:30	Registration & Breakfast Opens in Grand Ballroom</li>
 <br>
-10:30 - 10:45	Introduction by DSI Leadership - Gordon Wilson, DSI President
+<li>10:30 - 10:45	Introduction by DSI Leadership - Gordon Wilson, DSI President</li>
 <br>
 10:45 - 11:00	Dr. George Michailidis, UFII Director
 <br>
