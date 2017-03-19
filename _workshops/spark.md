@@ -9,7 +9,7 @@ summary: >
   computation engine using Python and Juypiter notebooks.
 
 ---
-Open-sourced less than 2 years ago, Spark is on track to overtake Hadoop in popularity and flexibility as a distributed computation engine. According to the [2016 stackoverflow Developer Survey](http://stackoverflow.com/research/developer-survey-2016#technology-top-paying-tech),
+Open-sourced 2 years ago, Spark is on track to overtake Hadoop in popularity and flexibility as a distributed computation engine. According to the [2016 stackoverflow Developer Survey](http://stackoverflow.com/research/developer-survey-2016#technology-top-paying-tech),
 Spark (and Scala which is the programming language most used with Spark) are the top paying software development technologies.
 
 ## Workshop Outline
@@ -38,41 +38,32 @@ end of each section works for you.
 #### Check It!
 
 On Windows open a Command Prompt or on OS X open a Terminal and type `java 
--version`. You should see something that starts with `java version "1.8.0_77"`.
+-version`. You should see something that starts with `java version "1.8.0_121"`.
    
 ### Installing Spark
 
 1. On OS X, download the [Spark tarball](http://spark.apache.org/downloads.html) from the Spark site.
-   Select version 1.6.1, "Pre-built for Hadoop 2.6 and later", and "Select Apache Mirror".
-   You can then click on the file named "spark-1.6.1-bin-hadoop2.6.tgz" which is a link that
+   Select version 2.1.0, "Pre-built for Hadoop 2.7 and later", and "Select Apache Mirror".
+   You can then click on the file named "spark-2.1.0-bin-hadoop2.7.tgz" which is a link that
    will take you to a page with a link to the download. The file will now probably be in your Downloads directory.
-1. **OR** On Windows, you can download the same file as above but re-compressed to a [.zip from a
-   DSI web server here](http://python.acis.ufl.edu/spark-1.6.1-bin-hadoop2.6.zip).
+1. **OR** On Windows, you can download the same file as above but re-compressed to [spark-2.1.0-bin-hadoop2.6.zip from a
+   DSI web server here](http://elk.acis.ufl.edu/spark-2.1.0-bin-hadoop2.6.zip).
    The file will now probably be in your Downloads directory.
-1. Open a Command Prompt in Windows or a Terminal on OS X.
 1. Create a directory for this workshop on your Desktop.
 1. Extract the tarball or zip file to the new directory you just created so it
-   looks like this when using the Command Prompt or Terminal
+   looks like this when using the Command Prompt or Terminal (your version will be more recent)
    
    <img src="{{ site.baseurl }}/img/workshops/spark_desktop_dir.png" />
-   
-1. Change to the `spark-1.6.1-bin-hadoop2.6\bin` sub directory.
-1. On Windows run `pyspark.cmd` or on OS X run `./pyspark`
-1. On Windows, if you have a window pop up that says Windows Firewall has 
-   blocked Java, click Allow Access.
-1. You should now see something that looks like:
 
-   <img src="{{ site.baseurl }}/img/workshops/spark_pyspark.png" />
-   
-1. Press Ctl-D to exit pyspark.
-
-   
 #### Check It!
 
-If the steps above worked, everything should be fine.
+1. pyspark.cmd on Windows doesn't seem to find hadoop executables any more as of 2.1 so it doesn't working
+   cleanly. We'll check this from the Jupyter Notebook later.
 
 
 ### Installing Python and Jupyter notebooks
+
+**If you have been attending DSI Python workshops, this should already be set up**
 
 1. Download the [Anaconda Python 2.7 installer](https://www.continuum.io/downloads)
    for your operating system.
@@ -84,7 +75,7 @@ On Windows open a Command Prompt or on OS X open a Terminal and type
 ```python --version
 ```
 You should see something like 
-```Python 2.7.11 :: Anaconda 4.0.0 (64-bit)
+```Python 2.7.13 :: Anaconda 4.3.1 (64-bit)
 ```
 
 To make sure notebooks are working, type `jupyter notebook`. You should have a
@@ -98,12 +89,12 @@ For today's workshop, we are going to just use some boilerplate code at the top
 of our notebook to start Spark. It is possible to configure Jupyter to start a
 Spark context for you however be aware that Jupyter and iPython notebooks [are
 different things](http://blog.jupyter.org/2015/04/15/the-big-split/) and you
-will find a lot of how-tos on the internet about configuring iPython but none
+will find a lot of how-tos on the internet about configuring iPython but few
 about Jupyter.
 
 1. Download the [Spark_Workshop_Notebook.ipynb](https://raw.githubusercontent.com/dsiufl/Spark-Workshop/master/Spark_Workshop_Notebook.ipynb) 
 by right-clicking on that link and choosing "Save as File".
-1. Move the Spark_Workshop_Notebook.ipynb to the Spark Workshop directory you 
+1. Move the Spark_Workshop_Notebook.ipynb to the Spark Workshop directory on your Desktop you 
    created earlier.
 1. Open a Command Prompt in Windows or Terminal in OS X and change to the Spark
    Workshop directory.
@@ -111,8 +102,12 @@ by right-clicking on that link and choosing "Save as File".
 1. In the browser window that opens, click on the Spark_Workshop_Notebook.ipynb
    file to open it.
 1. Edit the variable `spark_home` to be the **full** path to the directory that
-   contains the extracted Spark programs.
-1. Run the cells and make sure you get no errors.
+   contains the extracted Spark programs. Use backslashes for Windows (**\\**) and 
+   forward slashes for OS X (**/**).
+   
+#### Check it!
+   
+1. Run the first 2 cells and make sure you get no errors.
 
 <img src="{{ site.baseurl }}/img/workshops/spark_notebook.png" />
 
